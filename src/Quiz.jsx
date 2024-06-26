@@ -75,14 +75,14 @@ const Quiz = () => {
             {
                 "id": 3,
                 "question": "___ cat is very playful.",
-                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their"],
+                "options": ["My", "Your", "Our", "Their"],
                 "answer": ["My"],
                 "selectedOption": null
             },
             {
                 "id": 4,
                 "question": "___ house needs some repairs.",
-                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their"],
+                "options": ["My", "Your", "Our", "Their"],
                 "answer": ["Our"],
                 "selectedOption": null
             },
@@ -156,21 +156,21 @@ const Quiz = () => {
             {
                 "id": 13,
                 "question": "Her favorite color is blue.",
-                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their", "No error"],
+                "options": ["My", "Your", "Our", "Their", "No error"],
                 "answer": ["No error"],
                 "selectedOption": null
             },
             {
                 "id": 14,
                 "question": "Our going to the movies tonight.",
-                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their", "No error"],
-                "answer": ["We're"],
+                "options": ["My", "Your", "Our", "Their", "No error"],
+                "answer": ["Our"],
                 "selectedOption": null
             },
             {
                 "id": 15,
                 "question": "His dog likes to play fetch.",
-                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their", "No error"],
+                "options": ["My", "Your", "Our", "Their", "No error"],
                 "answer": ["No error"],
                 "selectedOption": null
             }
