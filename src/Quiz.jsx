@@ -60,116 +60,118 @@ const Quiz = () => {
         multipleChoice: [
             {
                 "id": 1,
-                "question": "___ is responsible for managing a company's finances.",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Who"],
+                "question": "___ apples are there in the basket?",
+                "options": ["How much", "How many"],
+                "answer": ["How many"],
                 "selectedOption": null
             },
             {
                 "id": 2,
-                "question": "___ do plants need sunlight?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Why"],
+                "question": "___ sugar do you need for the recipe?",
+                "options": ["How much", "How many"],
+                "answer": ["How much"],
                 "selectedOption": null
             },
             {
                 "id": 3,
-                "question": "___ do leaves typically change color?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["When"],
+                "question": "___ cat is very playful.",
+                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their"],
+                "answer": ["My"],
                 "selectedOption": null
             },
             {
                 "id": 4,
-                "question": "___ does a computer process information?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["How"],
+                "question": "___ house needs some repairs.",
+                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their"],
+                "answer": ["Our"],
                 "selectedOption": null
             },
             {
                 "id": 5,
-                "question": "___ wrote 'Romeo and Juliet'?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Who"],
+                "question": "___ chairs are there in the dining room?",
+                "options": ["How much", "How many"],
+                "answer": ["How many"],
                 "selectedOption": null
             }
         ]
+
 
         ,
         fillInTheBlank: [
             {
                 "id": 6,
-                "question": "___ do birds migrate south for the winter?",
+                "question": "She asked ___ it would cost to repair the car.",
                 "options": [],
-                "answer": ["Why", "why", "WHY"],
+                "answer": ["how much", "How much", "HOW MUCH"],
                 "selectedOption": null
             },
             {
                 "id": 7,
-                "question": "___ should we recycle plastic bottles?",
+                "question": "___ children do you have?",
                 "options": [],
-                "answer": ["Why", "why", "WHY"],
+                "answer": ["How many", "how many", "HOW MANY"],
                 "selectedOption": null
             },
             {
                 "id": 8,
-                "question": "___ did the Titanic sink?",
+                "question": "He lost ___ keys yesterday.",
                 "options": [],
-                "answer": ["When", "when", "WHEN"],
+                "answer": ["his", "His", "HIS"],
                 "selectedOption": null
             },
             {
                 "id": 9,
-                "question": "___ does a plant grow?",
+                "question": "___ mother cooks delicious meals.",
                 "options": [],
-                "answer": ["How", "HOW", "how"],
+                "answer": ["My", "my", "MY"],
                 "selectedOption": null
             },
             {
                 "id": 10,
-                "question": "___ is the CEO of Microsoft?",
+                "question": "They are going to visit ___ relatives next weekend.",
                 "options": [],
-                "answer": ["Who", "who", "WHO"],
+                "answer": ["their", "Their", "THEIR"],
                 "selectedOption": null
             }
         ]
+
 
 
         ,
         errorIdentification: [
             {
                 "id": 11,
-                "question": " ___ is your best friend?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Who"],
+                "question": "How much brothers do you have?",
+                "options": ["How much", "How many", "No error"],
+                "answer": ["How many"],
                 "selectedOption": null
             },
             {
                 "id": 12,
-                "question": " ___ does it rain in the desert?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["Why"],
+                "question": "How many time did it take to finish the project?",
+                "options": ["How much", "How many", "No error"],
+                "answer": ["How much"],
                 "selectedOption": null
             },
             {
                 "id": 13,
-                "question": " ___ was George Washington born?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["When"],
+                "question": "Her favorite color is blue.",
+                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their", "No error"],
+                "answer": ["No error"],
                 "selectedOption": null
             },
             {
                 "id": 14,
-                "question": " ___ can you speak Spanish?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["How"],
+                "question": "Our going to the movies tonight.",
+                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their", "No error"],
+                "answer": ["We're"],
                 "selectedOption": null
             },
             {
                 "id": 15,
-                "question": " ___ is your favorite color?",
-                "options": ["Who", "Why", "When", "How"],
-                "answer": ["What"],
+                "question": "His dog likes to play fetch.",
+                "options": ["My", "Your", "His/Her/Its", "Our", "Your", "Their", "No error"],
+                "answer": ["No error"],
                 "selectedOption": null
             }
         ]
@@ -179,76 +181,103 @@ const Quiz = () => {
         sentenceCompletion: [
             {
                 "id": 16,
-                "question": "___ did you buy that book?",
+                "question": "___ dog is very friendly.",
                 "options": [],
-                "answer": ["Why", "why", "WHY"],
+                "answer": ["My", "my", "MY"],
                 "selectedOption": null
             },
             {
                 "id": 17,
-                "question": "___ can we improve air quality?",
+                "question": "___ sister is a teacher.",
                 "options": [],
-                "answer": ["How", "how", "HOW"],
+                "answer": ["My", "my", "MY"],
                 "selectedOption": null
             },
             {
                 "id": 18,
-                "question": "___ was Shakespeare born?",
+                "question": "She asked ___ money do you need for the trip.",
                 "options": [],
-                "answer": ["When", "when", "WHEN"],
+                "answer": ["How much", "How many", "No error"],
                 "selectedOption": null
             },
             {
                 "id": 19,
-                "question": "___ wrote 'Hamlet'?",
+                "question": "___ car is parked outside.",
                 "options": [],
-                "answer": ["Who", "who", "WHO"],
+                "answer": ["My", "my", "MY"],
                 "selectedOption": null
             },
             {
                 "id": 20,
-                "question": "___ do you cook pasta?",
+                "question": "___ friends are coming to visit next week.",
                 "options": [],
-                "answer": ["How", "how", "HOW"],
+                "answer": ["My", "my", "MY"],
                 "selectedOption": null
             }
         ]
-
-
         ,
         paragraphInterpretation: [
             {
-                "id": 21,
-                "question": "When did the Industrial Revolution begin?",
-                "options": ["Early 18th century", "Late 18th century", "Early 19th century", "Late 19th century"],
-                "answer": ["Late 18th century"]
+                "id": 1,
+                "question": "How did the narrator and their friends prepare for their day at the beach?",
+                "options": [
+                    "They packed beach towels, sunscreen, and snacks.",
+                    "They brought books to read.",
+                    "They rented surfboards.",
+                    "They forgot their sunscreen."
+                ],
+                "answer": ["They packed beach towels, sunscreen, and snacks."],
+                "selectedOption": null
             },
             {
-                "id": 22,
-                "question": "What technological advancement played a crucial role in the Industrial Revolution?",
-                "options": ["Telecommunication", "Steam engine", "Photography", "Electricity"],
-                "answer": ["Steam engine"]
+                "id": 2,
+                "question": "What activities did the group enjoy at the beach?",
+                "options": [
+                    "Swimming, playing beach volleyball, and having a picnic.",
+                    "Building sandcastles and flying kites.",
+                    "Sailing and fishing in the sea.",
+                    "Sunbathing and napping."
+                ],
+                "answer": ["Swimming, playing beach volleyball, and having a picnic."],
+                "selectedOption": null
             },
             {
-                "id": 23,
-                "question": "Why did the Industrial Revolution lead to urbanization?",
-                "options": ["To reduce overcrowding in rural areas", "To promote cultural diversity", "To centralize political power", "To accommodate factory workers"],
-                "answer": ["To accommodate factory workers"]
+                "id": 3,
+                "question": "What did the narrator do during the afternoon at the beach?",
+                "options": [
+                    "Took a long walk along the shore and collected seashells.",
+                    "Went back home to rest.",
+                    "Played beach games with friends.",
+                    "Had a barbecue by the sea."
+                ],
+                "answer": ["Took a long walk along the shore and collected seashells."],
+                "selectedOption": null
             },
             {
-                "id": 24,
-                "question": "How did the Industrial Revolution impact social structures?",
-                "options": ["It reduced social inequalities", "It strengthened feudal systems", "It led to the rise of the working class", "It promoted monarchy"],
-                "answer": ["It led to the rise of the working class"]
+                "id": 4,
+                "question": "How did the narrator describe the weather during their day at the beach?",
+                "options": [
+                    "Perfect—sunny with a gentle breeze.",
+                    "Cloudy with occasional rain showers.",
+                    "Windy and cold.",
+                    "Foggy and humid."
+                ],
+                "answer": ["Perfect—sunny with a gentle breeze."],
+                "selectedOption": null
             },
             {
-                "id": 25,
-                "question": "Who benefited the most from the economic changes during the Industrial Revolution?",
-                "options": ["Farmers", "Artisans", "Factory owners", "Monarchs"],
-                "answer": ["Factory owners"]
+                "id": 5,
+                "question": "How did the day end for the narrator and their friends?",
+                "options": [
+                    "They watched the sunset before packing up and heading home.",
+                    "They stayed overnight at the beach.",
+                    "They went to a beach party.",
+                    "They explored a nearby forest."
+                ],
+                "answer": ["They watched the sunset before packing up and heading home."],
+                "selectedOption": null
             }
         ]
-
 
         ,
 
@@ -432,8 +461,14 @@ const Quiz = () => {
                 <h2 className='font-semibold text-center px-5 text-xl pt-7 text-white'>Paragraph Interpretation</h2>
                 <img className='w-[150px]' src={reading} alt='' />
             </div>
-            <div className='pt-7 '>
-                <p className='mb-2 px-10 text-justify font-light text-gray-700'>The Industrial Revolution, a pivotal period in history, began in the late 18th century in Britain. It marked a significant shift from agrarian economies to industrialized societies, driven by technological advancements in manufacturing and transportation. Key inventions such as the steam engine revolutionized production processes, leading to the establishment of factories and urbanization. This period saw profound social and economic changes, including the rise of capitalism, urban poverty, and the emergence of the working class. The Industrial Revolution not only transformed the economic landscape but also had far-reaching impacts on culture, politics, and global trade.</p>
+            <div className='pt-7 flex flex-col items-center'>
+                <h2>A Day at the Beach</h2>
+                <p className='mb-2 px-10 text-justify font-light text-gray-700'>
+                    Last summer, my friends and I decided to spend a day at the beach. We woke up early in the morning, packed our beach towels, sunscreen, and some snacks, and headed to the coast. The weather was perfect—sunny with a gentle breeze. When we arrived, we spread our towels on the warm sand and lay down to enjoy the peaceful atmosphere.
+
+                    Some of us went for a swim in the refreshing sea while others played beach volleyball. Around noon, we had a picnic under a large umbrella, sharing sandwiches and laughter. After lunch, I decided to take a long walk along the shore, collecting seashells and enjoying the sound of the waves.
+
+                    As the day progressed, more people arrived at the beach, creating a lively atmosphere. We stayed until late afternoon, watching the beautiful sunset before packing up our things and heading home, tired but happy after a wonderful day by the sea.</p>
             </div>
             {renderQuestions("paragraphInterpretation", questions.paragraphInterpretation)}
 
